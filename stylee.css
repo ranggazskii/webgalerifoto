@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	font-family:'Quicksand', sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration:none;
+}
+#bg-login {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.box-login {
+	width: 300px;
+	min-height: 200px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px; /* Menambahkan margin atas agar berada di tengah vertikal */
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column; /* Tampilkan elemen dalam kolom */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+    color: #333; /* Warna teks yang sesuai */
+}
+
+.title h1 {
+    font-size: 2em; /* Ukuran font lebih besar */
+    margin-bottom: 10px; /* Jarak bawah antara judul dan elemen berikutnya */
+    font-weight: bold; /* Tulisan tebal */
+    color: #080808; /* Warna teks judul yang menarik */
+}
+
+.title p {
+    font-size: 1.2em; /* Ukuran font untuk paragraf */
+    line-height: 1.5; /* Tinggi baris yang nyaman */
+}
+
+.title a {
+    color: #0f0f0f; /* Warna teks untuk tautan */
+    text-decoration: none; /* Menghilangkan garis bawah tautan */
+    transition: color 0.3s ease; /* Efek transisi warna saat dihover */
+}
+
+.title a:hover {
+    color: #111213; /* Warna teks saat dihover */
+}
+
+  .logo{
+		width: 50px; /* Sesuaikan lebar logo sesuai kebutuhan */
+		margin-right: 10px; /* Sesuaikan jarak antara logo dan teks */
+  }
+  .pemisah{
+	border: none;
+	border-top: 2px solid #4985ca;
+	width: 100%; /* Sesuaikan panjang garis (dalam contoh ini, 50% dari lebar container) */
+	margin-top: 10px; /* Sesuaikan jarak antara teks dan garis */
+  }
+
+  .button {
+    padding: 5px 10px; /* Mengatur padding */
+    background-color: #080808;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    transition: background-color 0.3s ease; /* Efek transisi warna latar belakang saat hover */
+    width: 15%; /* Mengatur panjang background dengan persentase */
+}
+.box-login h2 {
+	text-align:center;
+	margin-bottom:15px;
+}
+.input-control {
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	box-sizing:border-box;
+}
+.btn {
+	padding: 8px 15px;
+	background-color: #90afc5;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+header {
+    background-color: #90afc5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header ul li a {
+	padding:20px 0 20px 15px;
+	display: inline-block;
+}
+footer {
+	padding:25px 0;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear:both;
+}
+.section {
+    padding: 20px 0;
+    text-align: center;
+}
+.box {
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+	margin:10px 0 25px 0;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table tr {
+	height: 30px;
+}
+.table  tr td {
+	padding:5px 10px;
+}
+.search {
+    background-color: #90afc5;
+    padding: 5px; /* Menambahkan padding untuk memberikan ruang di sekitar elemen */
+    text-align: left;
+    border-radius: 8px; /* Memberikan sudut lengkung pada elemen */
+   
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #080808;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Efek transisi warna latar belakang saat hover */
+}
+
+.search input[type="submit"]:hover {
+    background-color: #08d1f5 /* Warna latar belakang saat hover */
+}
+
+.lol {
+    padding: 5px;
+    text-align: right;
+}
+
+.lol a {
+    font-weight: bold;
+    text-decoration: none; /* Menghilangkan underline pada link */
+    color: #333; /* Warna teks yang sesuai */
+    transition: color 0.3s ease; /* Efek transisi warna ketika dihover */
+}
+
+.lol a:hover {
+    color: #90afc5; /* Warna teks ketika dihover */
+}
+.col-5 {
+	width:20%;
+	height:100px;
+	text-align: center;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+}
+.col-4 {
+	width:25%;
+	height: 230px;
+	border:1px solid #ccc;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.col-4:hover {
+	box-shadow: 0 0 3px #999;
+}
+.col-4 img {
+	width: 100%;
+}
+.col-4 .nama {
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 5px;
+}
+.col-4 .admin {
+	font-weight: bold;
+	color: #FC3F81;
+}
+.footer {
+	padding:25px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.footer p {
+	margin-bottom: 10px;
+}
+.footer small {
+	margin-top: 25px;
+	display: inline-block;
+}
+.col-2 {
+	width: 50%;
+	min-height: 200px;
+	padding:10px;
+	box-sizing: border-box;
+	float: left;
+}
+.col-2 img {
+	border:1px solid #f9f9f9;
+	padding:5px;
+	box-sizing: border-box;
+}
+.col-2 h3 {
+	margin-bottom: 10px;
+}
+.col-2 h4 {
+	color: #0e57df;
+}
+.col-2 p {
+	margin:15px 0;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+		}
+	.col-5 {
+		width:50%;
+		margin-bottom: 10px;
+	}
+	.col-4 {
+		width:50%;
+		height: 300px;
+	}
+	.col-2 {
+		width:100%;
+	}
+    
+}
